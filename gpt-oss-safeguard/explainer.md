@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 The "policy" file in this folder can be applied using reasoning models – such as gpt-oss-safeguard – for safety classification tasks. It outlines a categorisation framework to facilitate the identification of written terrorist and violent extremist content (TVEC).  
 
