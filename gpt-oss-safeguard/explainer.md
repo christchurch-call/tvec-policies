@@ -1,6 +1,6 @@
 # Introduction
 
-The "policy" file in this folder can be applied using reasoning models – such as gpt-oss-safeguard – for safety classification tasks. It outlines a categorisation framework to facilitate the identification of written terrorist and violent extremist content (TVEC).  
+The "policy" file in this folder can be applied using reasoning models – such as gpt-oss-safeguard – for safety classification tasks. It outlines a categorisation framework to facilitate the identification of written terrorist and violent extremist content (TVEC).
 
 This policy purposely outlines broad classification categories for users to adapt to their own service. The classification categories are informed by existing terrorist and violent extremist (TVE) policies across the tech ecosystem[^1] and by recommended best practices from counter terrorism and violent extremist experts organisations.[^2] 
 
@@ -8,7 +8,9 @@ This policy purposely outlines broad classification categories for users to adap
 
 [^2]: See: Tech Against Terrorism’s Knowledge Sharing Platform, https://ksp.techagainstterrorism.org/ ; Global Internet Forum To Counter Terrorism’s (GIFCT) Member Resources, https://gifct.org/resource-guide/ 
 
-**Scope Limitations:** This TVEC policy is developed specifically to support the adoption of gpt-oss-safeguard. In its first iteration, the policy focuses exclusively on TVEC as text content. Building on this first policy, CCF will develop a more comprehensive catalogue of mock TVE policies applicable to other content types to support the adoption of open-source T&S tools, in particular ROOST’s suite. These will be developed based on open-source T&S tools users’ needs assessment and in continued consultation with the Call Community.  
+**Scope limitations:** This TVEC policy is developed specifically to support the application of gpt-oss-safeguard to text content. However, effective operations for countering terrorism and violent extremism (CTVE) online will need to also include the application of tools and policies that support the detection of multimodal content, actor networks, and behavioural patterns. The Christchurch Call Foundation will be working to develop complementary template policies in these areas as we build our CTVE 101 Toolkit. 
+
+**Note on performance across languages:** The Christchurch Call Foundation hosted two workshops with members of the Call Community to help test and refine this policy. During these workshops, participants also tested the model's capacity to classify content in languges other than English. We observed that gpt-oss-safeguard is less effective in identifying TVEC in languages other than English. Participants found that a violative sentence in English would often be assessed as permissable when written in another language. Given these limitations, we recommend caution when deploying gpt-oss-safeguard in international contexts, and emphasize that future work should prioritize diversifying and expanding model training data to improve multilingual performance.  
 
 **Note on defining terrorism and violent extremism:** There are no globally agreed definitions of terrorism or of violent extremism. Consequently, this TVEC policy does not seek to establish a standard definition of TVE or TVEC. Rather it focuses on providing an operationalisable framework for identifying TVEC that is broadly compatible with legal approaches to defining crimes of terrorism and violent extremism at the international and national levels. For more information regarding legal approaches to terrorism and violent extremism, please see Annex 1.  
 
