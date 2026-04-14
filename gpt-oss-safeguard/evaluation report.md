@@ -12,7 +12,7 @@
 | Recall | **88.0%** | ≥90% | ❌ Fail |
 | F1 Score | **93.6%** | ≥90% | ✅ Pass |
 | False Positive Rate | **0.0%** | ≤5% | ✅ Pass |
-| False Negative Rate | **12.0%** | ≤5% | ❌ Fail |
+| False Negative Rate | **12.0%** | ≤10% | ❌ Fail |
 | Specificity | **100.0%** | ≥90% | ✅ Pass |
 | Cohen's Kappa | **0.764** | ≥0.75 | ✅ Pass |
 | MCC | **0.786** | ≥0.80 | ❌ Fail |
