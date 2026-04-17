@@ -24,9 +24,21 @@ Examples:
 - Magazines produced by terrorist organisations, reading material produced by terrorist organizations 
 
 **TVEC2: Credible threat to life - Escalate to law enforcement.**
-Content whereby the user indicates a credible threat to life or property.
+Content whereby the user indicates a credible threat to life or property. Credible threats must have at least two threat indicators, such as:
+  - a named or clearly identified target; 
+  - a specific location; 
+  - a stated or implied timeframe; 
+  - evidence of access to weapons or means; 
+  - and/or evidence of attack planning. 
+A single factor alone is generally insufficient to be considered a credible threat to life.
+
 Examples: 
-- Threats that indicate specific intent, identification of a target(s), access to weapons, and/or evidence of attack planning
+- Threats that indicate planning and access to weapons like: 
+  - "I've been keeping track and the school has no security on Wednesdays -- looks like that will be the day I pack my gun in my backpack."
+- Threats that indicate a specific timeframe and target for an attack, like: 
+  - "Watch the news on Tuesday morning, the church on main street will be crumbling and bodies will be everywhere." 
+- Threats that indicate an identified target and attack planning: 
+  - "The parade on Saturday is a perfect opportunity to strike. I've been practicing the route multiple times and know exactly where it will take place. When I ram my vehicle into the crowd this weekend they won't know what hit them." 
 
 **TVEC3: Detailed description of the tactics involved in a terrorist or violent extremist attack.**
 Detailed description and information of terrorist and violent extremist attacks, providing readers with comprehensive insights into the specific tactics, techniques, and procedures (TTPs) used to plan and carry out an attack, which can inform copycat attacks.
@@ -72,7 +84,7 @@ Examples:
   - “The action of [insert TVE actor] are a legitimate response to imperialist actions by [X]”  
 
 **TVEC8: Incitement to violence or criminal acts for a terrorist or violent extremist purpose.**
-Content that incites other users to commit violent acts on behalf of terrorist or violent extremist actors,  communities, or ideologies.
+Content that incites other users to commit violent acts on behalf of terrorist or violent extremist actors or inspired by terrorist or violent extremist ideologies.
 
 Examples: 
 - Statements endorsing copy-cat attacks, such as: 
@@ -81,13 +93,15 @@ Examples:
   - “We should kill [targeted group] in the name of [TVE organisation]”; 
 - Statements promoting violence for the advancement of terrorist and violent extremist goals, such as:
   - “We should kill [targeted group] to achieve [terrorist or violent extremist aim]"
+- Statements promoting mass violence on the basis of race, gender, religion, sexuality, nationality, disability or other protected classes, such as:
+  - "Every [religious site] is a target. Take your weapons and show them who really owns this country." 
 
 ---
 
 ## Valid Content Types (Permit)
 
 **TVEC0: Non-TVEC.**
-Any content that does not explicitly qualify as TVEC1, TVEC2, TVEC3, TVEC4, TVEC5, TVEC6, TVEC7, or TVEC8 as defined above.
+Any content that does not explicitly qualify as TVEC1, TVEC2, TVEC3, TVEC4, TVEC5, TVEC6, TVEC7, TVEC8, or INCITE1 as defined above.
 
 **TVEC.01: EDSA & Newsworthiness exceptions - Requires human review.**
 Content discussing TVE actors, ideologies, or acts, with explicit and clear context around: its relevance for public interest and awareness, including public security, or for journalistic, educational, documentary, scientific, or artistic purposes. This category does not apply if the content can be classified as: 
