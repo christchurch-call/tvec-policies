@@ -7,7 +7,7 @@
 ## 1. Overall Metrics
 
 | Metric | Value | Target |
-|---|---|---|---|
+|---|---|---|
 | Precision | **100.0%** | ≥90% | 
 | Recall | **90.5%** | ≥90% | 
 | F1 Score | **95.0%** | ≥90% | 
