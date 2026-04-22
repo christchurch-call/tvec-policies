@@ -1,2 +1,19 @@
-# tvec-policies
-A repository of policies supporting the use of open-source safety tools for countering terrorism and violent extremism online.
+# Introduction
+
+The policies within this folder are tailored to safety classification tasks related to terrorism and violent extremism. We are working on tailored policies for different content types (i.e., audio, image, and text) to improve the application of various open-source safety classifiers. While the categories of violative content are largely similar across content types, we felt that designing a policy for each content type allowed for the inclusion of more specific examples within each.
+
+The classification categories used in these policies are informed by existing terrorist and violent extremist (TVE) policies across the tech ecosystem[^1] and by recommended best practices from counter terrorism and violent extremist experts organisations.[^2] Teams looking to leverage these policies should take the following notes into consideration:
+
+[^1]:TVE policies are commonly referred as or included in the following categories in Community Guidelines or Terms of Services: Violent and hateful organisations and individuals; dangerous organisations and individuals (DOIs); violent criminal organisations. 
+
+[^2]: See: Tech Against Terrorism’s Knowledge Sharing Platform, https://ksp.techagainstterrorism.org/ ; Global Internet Forum To Counter Terrorism’s (GIFCT) Member Resources, https://gifct.org/resource-guide/ 
+
+**Scope:** The policies provided in this folder are designed to support the detection and classification of terrorist and violent extremist content. In our testing to date, we have found that the policies reliably flag content that incites violence on behalf of terrorist groups or in alignment with terrorist and violent extremist ideologies. The policies are not, however, designed to flag content that incites violence but does not have a connection to terrorism and violent extremism. 
+
+**Note on performance across languages:** The Christchurch Call Foundation hosted two workshops with members of the Call Community to help test and refine this policy. During these workshops, participants also tested the model's capacity to classify content in languges other than English. We observed that gpt-oss-safeguard is less effective in identifying TVEC in languages other than English. Participants found that a violative sentence in English would often be assessed as permissable when written in another language. Given these limitations, we recommend caution when deploying gpt-oss-safeguard in international contexts, and emphasize that future work should prioritize diversifying and expanding model training data to improve multilingual performance.  
+
+**Note on defining terrorism and violent extremism:** There are no globally agreed definitions of terrorism or of violent extremism. Consequently, this TVEC policy does not seek to establish a standard definition of TVE or TVEC. Rather it focuses on providing an operationalisable framework for identifying TVEC that is broadly compatible with legal approaches to defining crimes of terrorism and violent extremism at the international and national levels. For more information regarding legal approaches to terrorism and violent extremism, please see Annex 1.  
+
+**Note on legal requirements:** Depending on the jurisdictions where online services are made available, different legal requirements related to disabling or preventing access to illegal content, and specifically to terrorist content, may apply.  For instance, such requirements exist under the Online Safety Acts in the UK and Australia, as well as under the Regulation on Addressing the Dissemination of Terrorist Content Online (TCO) in the EU.[^3] For more information about legal requirements to prevent and disable access to illegal content, including terrorist content, see Tech Against Terrorism’s Online Regulation Series.  
+
+[^3]: For more information about legal requirements to prevent and disable access to illegal content, including terrorist content, see Tech Against Terrorism’s Online Regulation Series: https://techagainstterrorism.org/online-regulation-series.
