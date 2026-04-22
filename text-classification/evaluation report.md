@@ -12,7 +12,7 @@
 | Recall | **90.5%** | ≥90% | 
 | F1 Score | **95.0%** | ≥90% | 
 | False Positive Rate | **0.0%** | ≤5% | 
-| False Negative Rate | **9.5** | ≤10% | 
+| False Negative Rate | **9.5%** | ≤10% | 
 | Specificity | **100.0%** | ≥90% | 
 | Cohen's Kappa | **0.831** | ≥0.75 | 
 | MCC | **0.843** | ≥0.80 | 
